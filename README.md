@@ -1,6 +1,4 @@
-# git-cheat-sheet
 
-
-Create New Branch and Checkout
-git checkout -b new_branch_name 
-git switch -c new_branch_name
+**Create a new branch and checkout**
+- git checkout -b 'branch_name' 
+- git switch -c 'branch_name'
