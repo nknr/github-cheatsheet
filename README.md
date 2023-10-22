@@ -1,4 +1,8 @@
 
-**Create a new branch and checkout**
-- git checkout -b 'branch_name' 
-- git switch -c 'branch_name'
+**Initialization**
+
+| Command | Description |
+| :--- | :--- |
+| `git init` | Initialize Git into the local directory |
+| `git remote add origin [repository url]` | Specifies the remote repository for your local repository | 
+| `git clone [repository url]` | Clone(download) remote repository into local directory |
