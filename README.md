@@ -25,11 +25,17 @@ Its primary purpose is to simplify the process of switching between branches whi
 
 ### Changes
 
-| Command                     | Description                           |
-|:----------------------------|:--------------------------------------|
-| `git add .`                 | Add all changes to stage area         |
-| `git add [file]`            | Add specified file to stage area      |
-| `git commit -m "[message]"` | Commit staged file in version history |
-| `git commit -a"`            | Commit staged file in version history |
+| Command                     | Description                                                                                |
+|:----------------------------|:-------------------------------------------------------------------------------------------|
+| `git add .`                 | Add all changes to stage area                                                              |
+| `git add [file]`            | Add specified file to stage area                                                           |
+| `git commit -m "[message]"` | Commit staged file in version history                                                      |
+| `git commit -a`             | Commit staged file in version history                                                      |
+| `git status`                | Show all file which are modified, created, deleted, un-staged file                         |
+| `git diff`                  | Show all changes which are not staged                                                      |
+| `git diff -staged`          | Shows the differences between the files in the staging area and the latest version present |
+| `git rm [file]`             | Delete un-staged file                                                                      |
+| `git rm -f [file]`          | Delete file                                                                                |
+
 
 
