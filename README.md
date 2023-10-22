@@ -1,5 +1,5 @@
 
-**Initialization**
+### Initialization
 
 | Command                                  | Description                                               |
 |:-----------------------------------------|:----------------------------------------------------------|
@@ -7,7 +7,7 @@
 | `git remote add origin [repository url]` | Specifies the remote repository for your local repository | 
 | `git clone [repository url]`             | Clone(download) remote repository into local directory    |
 
-**Branch**
+### Branch
 
 | Command                                   | Description                                          |
 |:------------------------------------------|:-----------------------------------------------------|
@@ -22,5 +22,14 @@
 
 **Switch vs Checkout** `switch` is a new command introduced in Git 2.23 (released in August 2019).
 Its primary purpose is to simplify the process of switching between branches while in `checkout` is a versatile Git command that can be used for a variety of purposes, including switching branches, creating new branches, and even checking out specific files or commits
+
+### Changes
+
+| Command                     | Description                           |
+|:----------------------------|:--------------------------------------|
+| `git add .`                 | Add all changes to stage area         |
+| `git add [file]`            | Add specified file to stage area      |
+| `git commit -m "[message]"` | Commit staged file in version history |
+| `git commit -a"`            | Commit staged file in version history |
 
 
