@@ -44,5 +44,6 @@ Its primary purpose is to simplify the process of switching between branches whi
 | `git stash list`                            | Show all saved change list                                                                 |
 | `git stash apply [index]`                   | Copy save change to directory                                                              |
 | `git stash drop [index]`                    | Copy save the change to the directory and clear changes from stash                         |
+| `git push`                                  | Sends committed changes in repository                                                      |
 
 
