@@ -47,3 +47,4 @@ Its primary purpose is to simplify the process of switching between branches whi
 | `git push`                                  | Sends committed changes in repository                                                      |
 
 
+**Untracked files** are files that have been created within your repo's working directory but have not yet been added to the repository's tracking index using the `git add` command
