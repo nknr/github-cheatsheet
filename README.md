@@ -1,13 +1,21 @@
 
-### Initialization
+## Initialization
 
 | Command                                  | Description                                               |
 |:-----------------------------------------|:----------------------------------------------------------|
 | `git init`                               | Initialize Git into the local directory                   |
 | `git remote add origin [repository url]` | Specifies the remote repository for your local repository | 
 | `git clone [repository url]`             | Clone(download) remote repository into local directory    |
+| `git push -u <remote> <branch>`          | It pushes the current branch’s commits to the specified remote branch. | 
 
-### Branch
+#### What git push -u Does
+- Pushes Changes:
+     1. It pushes the current branch’s commits to the specified remote branch.
+- Sets Upstream:
+     1. The <b>-u or --set-upstream</b> flag sets the remote branch as the upstream for your local branch.
+     2.	This allows you to use simple commands like git push and git pull in the future without specifying the remote and branch.
+
+## Branch
 
 | Command                                   | Description                                          |
 |:------------------------------------------|:-----------------------------------------------------|
